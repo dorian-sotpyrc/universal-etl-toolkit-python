@@ -1,0 +1,14 @@
+[project]
+name = "universal-etl-toolkit-python"
+version = "0.1.0"
+description = "A tiny, universal ETL toolkit in Python under 100 lines."
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["universal_etl"]
+package-dir = {"" = "src"}
